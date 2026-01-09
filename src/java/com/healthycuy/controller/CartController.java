@@ -3,7 +3,7 @@ package com.healthycuy.controller; // PACKAGE HARUS INI
 import com.healthycuy.dao.ProductDAO;
 import com.healthycuy.model.Order;
 import com.healthycuy.model.Product;
-import dao.OrderDAO;
+import com.healthycuy.dao.OrderDAO;
 
 
 import jakarta.servlet.ServletException;
@@ -15,7 +15,7 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import model.User;
+import com.healthycuy.model.User;
 
 @WebServlet("/cart")
 public class CartController extends HttpServlet {

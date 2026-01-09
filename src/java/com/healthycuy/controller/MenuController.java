@@ -1,4 +1,4 @@
-package controller;
+package com.healthycuy.controller; // WAJIB INI
 
 import com.healthycuy.dao.ProductDAO;
 import jakarta.servlet.ServletException;
@@ -14,11 +14,8 @@ public class MenuController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // 1. Ambil semua data produk dari database
+        // Ambil data dan kirim ke JSP
         request.setAttribute("productList", productDAO.getAllProducts());
-        
-        // 2. Lempar ke tampilan JSP
-        // Pake '/views/' biar path-nya absolut
         request.getRequestDispatcher("/views/menu.jsp").forward(request, response);
     }
 }

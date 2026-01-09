@@ -1,6 +1,6 @@
 package com.healthycuy.controller;
 
-import dao.OrderDAO;
+import com.healthycuy.dao.OrderDAO;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
-import model.User;
+import com.healthycuy.model.User;
 
 @WebServlet("/check-status")
 public class StatusCheckServlet extends HttpServlet {

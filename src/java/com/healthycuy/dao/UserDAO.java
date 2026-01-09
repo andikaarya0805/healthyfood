@@ -1,10 +1,10 @@
-package dao;
+package com.healthycuy.dao;
 
-import config.DatabaseConnection;
+import com.healthycuy.config.DatabaseConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import model.User;
+import com.healthycuy.model.User;
 
 public class UserDAO {
     

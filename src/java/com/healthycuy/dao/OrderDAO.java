@@ -1,7 +1,7 @@
-package dao;
+package com.healthycuy.dao;
 
 import com.healthycuy.model.Order;
-import config.DatabaseConnection;
+import com.healthycuy.config.DatabaseConnection;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

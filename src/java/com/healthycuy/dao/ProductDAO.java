@@ -1,7 +1,7 @@
 package com.healthycuy.dao;
 
 import com.healthycuy.model.Product;
-import config.DatabaseConnection;
+import com.healthycuy.config.DatabaseConnection;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
